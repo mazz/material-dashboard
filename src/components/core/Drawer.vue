@@ -48,18 +48,7 @@
             v-text="link.text"
           />
         </v-list-tile>
-        <v-list-tile
-          active-class="success"
-          class="v-list-item v-list__tile--buy"
-          to="/upgrade"
-        >
-          <v-list-tile-action>
-            <v-icon>mdi-package-up</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title class="font-weight-light">
-            Upgrade To PRO
-          </v-list-tile-title>
-        </v-list-tile>
+
       </v-layout>
     </v-img>
   </v-navigation-drawer>
@@ -82,11 +71,11 @@ export default {
   data: () => ({
     logo: 'favicon.ico',
     links: [
-      {
-        to: '/',
-        icon: 'mdi-view-dashboard',
-        text: 'Dashboard'
-      },
+      // {
+      //   to: '/',
+      //   icon: 'mdi-view-dashboard',
+      //   text: 'Dashboard'
+      // },
       {
         to: '/user-profile',
         icon: 'mdi-account',
@@ -97,21 +86,21 @@ export default {
         icon: 'mdi-clipboard-outline',
         text: 'Table List'
       },
-      {
-        to: '/typography',
-        icon: 'mdi-format-font',
-        text: 'Typography'
-      },
-      {
-        to: '/icons',
-        icon: 'mdi-chart-bubble',
-        text: 'Icons'
-      },
-      {
-        to: '/maps',
-        icon: 'mdi-map-marker',
-        text: 'Maps'
-      },
+      // {
+      //   to: '/typography',
+      //   icon: 'mdi-format-font',
+      //   text: 'Typography'
+      // },
+      // {
+      //   to: '/icons',
+      //   icon: 'mdi-chart-bubble',
+      //   text: 'Icons'
+      // },
+      // {
+      //   to: '/maps',
+      //   icon: 'mdi-map-marker',
+      //   text: 'Maps'
+      // },
       {
         to: '/notifications',
         icon: 'mdi-bell',

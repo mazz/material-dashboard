@@ -11,6 +11,12 @@
       <v-flex
         md12
       >
+          <v-btn
+              class="mx-0 font-weight-light"
+              color="success"
+          >
+              Update Profile
+            </v-btn>
         <material-card
           color="green"
           title="Simple Table"
